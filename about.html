@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Food KH</title>
+
+    <link rel="stylesheet" href="stylse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="Header-container">
+
+        <div class="txt-brand-name">Food Kh</div>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+        </ul>
+
+        <div class="logo">
+            <img src="./picture/logofood.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%;">
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+
+    <div class="Main-container">
+
+        <h2 class="section-title">Our Story</h2>
+
+        <div class="about-container">
+
+            <div class="about-box">
+
+                <img src="./picture/logofood.jpg" alt="logo" class="about-logo">
+
+                <h3>Food KH</h3>
+
+                <p>
+                    Founded in 2020, we bring authentic Khmer flavors and warm hospitality. Every dish tells a story of
+                    tradition and love for cooking.
+                </p>
+
+            </div>
+
+            <div class="about-box">
+
+                <h3>Our Mission</h3>
+                <p>
+                    To become Cambodia’s most loved food brand, known for quality, innovation, and community happiness.
+                </p>
+
+            </div>
+
+            <div class="about-box">
+
+                <h3>Our Vision</h3>
+                <p>
+                    To become one of the most popular food delivery platforms in Cambodia.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div
+        style=" background-color: #fef1e0; margin: 32px 5%; padding: 32px; border-radius: 28px; text-align: center;">
+        <h3>👨‍🍳 Meet the Chef </h3>
+        <p>Chef Sophea leads our kitchen with 15+ years of experience, combining classic recipes with a modern twist.
+        </p>
+    </div>
+
+    <div class="Footer-container">
+        <div class="column">
+            <div class="logo" style="display: flex; justify-content:center;">
+                <img src="./picture/logofood.jpg" alt="">
+            </div>
+            <h3 style="text-align: center;">Food KH</h3>
+            <p>Authentic Cambodian flavors & modern comfort food. Fresh ingredients, tradition meets passion.</p>
+        </div>
+
+        <div class="column">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><i class="fab fa-facebook"></i> <a href="#">Facebook</a></li>
+                <li><i class="fab fa-instagram"></i> <a href="#">Instagram</a></li>
+                <li><i class="fab fa-tiktok"></i> <a href="#">TikTok</a></li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="fas fa-envelope"></i> hello@foodkh.com</li>
+                <li><i class="fas fa-phone"></i> +855 96 914 2908</li>
+                <li><i class="fab fa-telegram"></i> t.me/foodkh</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h3>Address</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Boeng Trabek, Khan Chamkarmon, Phnom Penh, Cambodia</li>
+            </ul>
+            <p style="margin-top: 12px;">Open daily 9am - 10pm</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".menu").toggleClass("show");
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service - Food KH</title>
+
+    <link rel="stylesheet" href="stylse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="Header-container">
+
+        <div class="txt-brand-name">Food Kh</div>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Menu</a></li>
+            <li><a class="active" href="service.html">Service</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="logo">
+            <img src="./picture/logofood.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%;">
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+
+    <!-- MAIN -->
+    <div class="Main-container" >
+        <h2 class="section-title">✨ Premium Services</h2>
+
+        <div class="about-container">
+
+            <div class="about-box">
+                <div class="about-icon">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <div class="pro-name">Lightning Delivery </div>
+                <div class="category">Within 30 min • Free over $12</div>
+                <div class="pro-price">🚴‍♂️ Fast & hot</div>
+            </div>
+
+            <div class="about-box">
+                <div class="about-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <div class="pro-name">Fresh Ingredients </div>
+                <div class="category">Local farm to table </div>
+                <div class="pro-price">🥬 Organic</div>
+            </div>
+
+            <div class="about-box">
+                <div class="about-icon">
+                    <i class="fa-solid fa-bell-concierge"></i>
+                </div>
+                <div class="pro-name">Catering Service </div>
+                <div class="category">Events, parties, corporate </div>
+                <div class="pro-price">🎉 Custom menu</div>
+            </div>
+
+            <div class="about-box">
+                <div class="about-icon">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+                <div class="pro-name">Easy Online Payment </div>
+                <div class="category"> ABA, Wing, Visa</div>
+                <div class="pro-price">🔐 Secure checkout</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div style="background-color: #fef1e0; margin: 32px 5%; padding: 32px; border-radius: 28px; text-align: center;">
+        <h3>📞 24/7 Customer Support </h3>
+        <p>Call us: 096 914 2908 | Live chat on website</p>
+    </div>
+    <div class="Footer-container">
+
+        <div class="column">
+            <div class="logo">
+                <img src="./picture/logofood.jpg" alt="">
+            </div>
+
+            <h3>Food KH</h3>
+
+            <p>Authentic Cambodian flavors & modern comfort food. Fresh ingredients, tradition meets passion.</p>
+        </div>
+        <div class="column">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><i class="fab fa-facebook"></i> <a href="#">Facebook</a></li>
+                <li><i class="fab fa-instagram"></i> <a href="#">Instagram</a></li>
+                <li><i class="fab fa-tiktok"></i> <a href="#">TikTok</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="fas fa-envelope"></i> hello@foodkh.com</li>
+                <li><i class="fas fa-phone"></i> +855 96 914 2908</li>
+                <li><i class="fab fa-telegram"></i> t.me/foodkh</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Address</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Boeng Trabek, Khan Chamkarmon, Phnom Penh, Cambodia</li>
+            </ul>
+            <p style="margin-top: 12px;">Open daily 9am - 10pm</p>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".menu").toggleClass("show");
+            });
+        });
+    </script>
+
+</body>
+
+</html>

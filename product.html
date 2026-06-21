@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Food KH</title>
+
+    <link rel="stylesheet" href="stylse.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER (same as your old code) -->
+    <div class="Header-container">
+
+        <div class="txt-brand-name">Food Kh</div>
+
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="product.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="logo">
+            <img src="./picture/logofood.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%;">
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+
+    <!-- PRODUCT CONTENT -->
+
+    <div class="Main-container">
+        <h2 class="section-title">🍽️ Our Full Menu</h2>
+
+        <div class="Product-container">
+
+            <div class="column">
+                <img src="./picture/food1.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Amok Trey</div>
+                    <div class="category">Khmer Fish</div>
+                    <div class="pro-price">$4</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="./picture/food3.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Samlor Machu Trey</div>
+                    <div>Sour Soup</div>
+                    <div class="pro-price">$3.99</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="./picture/food4.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Kuy Teav</div>
+                    <div class="category">Noodle Soup</div>
+                    <div class="pro-price">$2.99</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="./picture/food5.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Prahok Ktiss</div>
+                    <div class="category">DIP</div>
+                    <div class="pro-price">$4</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./picture/food6.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Nom Banh Chok</div>
+                    <div class="category">Khmer Noodles</div>
+                    <div class="pro-price">$3.99</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./picture/food2.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Beef Lok Lak</div>
+                    <div class="category">Stir-fry</div>
+                    <div class="pro-price">$5</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./picture/Spring-Rolls.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Fresh Spring Rolls</div>
+                    <div class="category">Appetizer</div>
+                    <div class="pro-price">$4</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./picture/desert.jpg" alt="">
+                <div class="card-content">
+                    <div class="pro-name">Mango Sticky Rice</div>
+                    <div class="category">Dessert</div>
+                    <div class="pro-price">$3.50</div>
+                    <button class="order-btn">
+                        Order Now <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-icon").click(function () {
+                $(".menu").toggleClass("show");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
